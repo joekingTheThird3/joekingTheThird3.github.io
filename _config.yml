@@ -1,3 +1,5 @@
-	name: JoekingTheThird3, code explorer
+---
+name: JoekingTheThird3, code explorer
 	markdown: kramdown
 	permalink: joekingTheThird3.github.io/blog/:year/:month/:day/:title
+---
