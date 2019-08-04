@@ -10,3 +10,4 @@ finally! {{  page.salute }}
 Thanks to this guide on how to create a site on github  - <http://jmcglone.com/guides/github-pages/>
 
 1. takes 2mins to update site/files on this github - annoyance
+2. varibles in front matter - yaml - need prefix with page - e.g. page.salute 
