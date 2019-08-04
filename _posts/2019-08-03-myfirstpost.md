@@ -11,3 +11,6 @@ Thanks to this guide on how to create a site on github  - <http://jmcglone.com/g
 
 1. takes 2mins to update site/files on this github - annoyance
 2. varibles in front matter - yaml - need prefix with page - e.g. page.salute 
+3. blog directory in other repository interfered with this repository
+4. _config.yml file had incorrect format - spaces infront of keys/variables - showed up as red bar
+but only hint that there was a problem was in the settings tab of the repository.
