@@ -7,6 +7,6 @@ salute: hello
 
 finally! {{  salute }}
 
-Thanks to this guide on how to create a site on github  - http://jmcglone.com/guides/github-pages/
+Thanks to this guide on how to create a site on github  - <http://jmcglone.com/guides/github-pages/>
 
-# takes 2mins to update site/files on this github - annoyance
+1. takes 2mins to update site/files on this github - annoyance
