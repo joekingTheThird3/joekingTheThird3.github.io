@@ -5,7 +5,7 @@ date: 2019-08-03
 salute: hello
 ---
 
-finally! {{  salute }}
+finally! {{  page.salute }}
 
 Thanks to this guide on how to create a site on github  - <http://jmcglone.com/guides/github-pages/>
 
