@@ -8,7 +8,8 @@ salute: hello
 data = site.data = {{  site.data }}
 <br>
 site.data.default = {{site.data.default}}
-
+<br>
+site.data.default.myvar = {{site.data.default.myvar}}
 
 finally! {{  page.salute }}
 
