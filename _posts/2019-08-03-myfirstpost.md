@@ -16,5 +16,4 @@ Thanks to this guide on how to create a site on github  - <http://jmcglone.com/g
 but only hint that there was a problem was in the settings tab of the repository. Ah! Actually I got an email with the error 'You have an error on line 2 of your `_config.yml` file'
 
 
-
-{{ site.time | date_to_xmlschema }}
+{{ site.time | date_to_string }}
