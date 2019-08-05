@@ -6,6 +6,8 @@ salute: hello
 ---
 
 data = site.data = {{  site.data }}
+<br>
+site.data.default = {{site.data.default}}
 
 
 finally! {{  page.salute }}
