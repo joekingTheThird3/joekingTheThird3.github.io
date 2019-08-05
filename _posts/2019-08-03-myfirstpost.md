@@ -11,6 +11,10 @@ site.data.default = {{site.data.default}}
 <br>
 site.data.default.myvar = {{site.data.default.myvar}}
 
+<br>
+
+site.data.default.Sammy Sosa = {{ site.data.default.Sammy Sosa }}
+
 finally! {{  page.salute }}
 
 Thanks to this guide on how to create a site on github  - <http://jmcglone.com/guides/github-pages/>
