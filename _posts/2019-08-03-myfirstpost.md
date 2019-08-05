@@ -12,8 +12,8 @@ site.data.default = {{site.data.default}}
 site.data.default.myvar = {{site.data.default.myvar}}
 
 <br>
-
-site.data.default.Sammy Sosa = {{ site.data.default.['Sammy Sosa'] }}
+'quoted variable has space' - yaml format data
+ site.data.default.['Sammy Sosa'] = {{ site.data.default.['Sammy Sosa'] }}
 
 finally! {{  page.salute }}
 
