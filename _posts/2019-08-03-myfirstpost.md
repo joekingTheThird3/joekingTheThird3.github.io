@@ -13,7 +13,7 @@ site.data.default.myvar = {{site.data.default.myvar}}
 
 <br>
 
-site.data.default.Sammy Sosa = {{ site.data.default.Sammy Sosa }}
+site.data.default.Sammy Sosa = {{ site.data.default.['Sammy Sosa'] }}
 
 finally! {{  page.salute }}
 
