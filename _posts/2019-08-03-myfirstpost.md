@@ -14,3 +14,7 @@ Thanks to this guide on how to create a site on github  - <http://jmcglone.com/g
 3. blog directory in other repository interfered with this repository
 4. _config.yml file had incorrect format - spaces infront of keys/variables - showed up as red bar
 but only hint that there was a problem was in the settings tab of the repository. Ah! Actually I got an email with the error 'You have an error on line 2 of your `_config.yml` file'
+
+
+
+{{ site.time | date_to_xmlschema }}
