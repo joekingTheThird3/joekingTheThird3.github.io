@@ -5,6 +5,9 @@ date: 2019-08-03
 salute: hello
 ---
 
+data = site.data = {{  site.data }}
+
+
 finally! {{  page.salute }}
 
 Thanks to this guide on how to create a site on github  - <http://jmcglone.com/guides/github-pages/>
@@ -18,5 +21,6 @@ but only hint that there was a problem was in the settings tab of the repository
 
 
 
-data = {{  site.data }}
+
+<br>
 {{ site.time | date_to_string }}
