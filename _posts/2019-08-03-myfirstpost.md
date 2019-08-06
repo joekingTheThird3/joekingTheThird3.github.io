@@ -51,6 +51,7 @@ site.collections A list of all the collections (including posts) = <br>
 myarray.last (should say item3)= {{page.myarray.last}}
 <br>
 myarray.size (should say 3)= {{page.myarray.size}}
+<hr>
 {{  site.data.default | inspect }}
 <br>
 {{ site.time | date_to_string }}
