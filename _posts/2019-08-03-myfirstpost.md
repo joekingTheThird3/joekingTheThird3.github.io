@@ -38,6 +38,9 @@ baseurl= {{ baseurl }}
 url= {{url}}
 <br>
 relative url={{ "" | absolute_url }}
+<br>
+number of words in this post = {{ page.content | number_of_words }}
+<br>
 
 
 <br>
