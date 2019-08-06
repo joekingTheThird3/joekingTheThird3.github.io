@@ -74,6 +74,9 @@ page.path = {{ page.path }}
 {% assign mypath= page.path %}
  {% capture mypath %} {{page.path}} {% endcapture %}
 link: {{mypath}}
+<hr>
+
+[link to a post]({% link mypath %})
 
 <hr>
 {{ site.time | date_to_string }}
