@@ -68,6 +68,6 @@ myarray.size (should say 3)= {{page.myarray.size}}
 page.path = {{ page.path }}
 <br>
 
-{% link page.path %}
+link: {% link page.path %}
 <hr>
 {{ site.time | date_to_string }}
