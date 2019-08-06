@@ -35,13 +35,13 @@ but only hint that there was a problem was in the settings tab of the repository
 
 baseurl= {{ baseurl }}
 <br>
-url= {{url}}
+url= {{ url }}
 <br>
 absolute url =url+baseurl={{ "" | absolute_url }}
 <br>
 number of words in this post = {{ page.content | number_of_words }}
 <br>
-
+site.collection = {{site.collection}}
 
 <br>
 {{ site.time | date_to_string }}
