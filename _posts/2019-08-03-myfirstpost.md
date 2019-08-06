@@ -69,9 +69,9 @@ myarray.size (should say 3)= {{page.myarray.size}}
 
 page.path = {{ page.path }}
 <br>
-
- 
-link: 
+{% assign mypath= page.path %}
+ {% capture mypath %} {{page.path}} {% endcapture %}
+link: {{mypath}}
 
 <hr>
 {{ site.time | date_to_string }}
