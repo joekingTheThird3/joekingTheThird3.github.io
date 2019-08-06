@@ -4,6 +4,11 @@ title: "joekingthethird3 Launches Site"
 date: 2019-08-03
 salute: hello
 myarray: ['item1','item2','item3']
+myhash: {
+'key1':'item1',
+'key2':'item2',
+'key3':'item3'
+}
 ---
 
 data = site.data = {{  site.data }}
