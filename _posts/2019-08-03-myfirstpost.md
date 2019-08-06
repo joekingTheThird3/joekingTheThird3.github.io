@@ -46,4 +46,6 @@ site.collections A list of all the collections (including posts) = <br>
 {{site.collections}}
 
 <br>
+{{  site.data.default | inspect }}
+<br>
 {{ site.time | date_to_string }}
