@@ -41,7 +41,7 @@ absolute url =url+baseurl={{ "" | absolute_url }}
 <br>
 number of words in this post = {{ page.content | number_of_words }}
 <br>
-site.collection = {{site.collection}}
+site.collection = {{site.collections}}
 
 <br>
 {{ site.time | date_to_string }}
