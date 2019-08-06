@@ -57,9 +57,9 @@ myarray.last (should say item3)= {{page.myarray.last}}
 <br>
 myarray.size (should say 3)= {{page.myarray.size}}
 <hr>
-{% for item in myhash %}
+{{ for item in myhash }}
   {{ item[0] }}: {{ item[1] }}
-{% endfor %}
+{{ endfor }}
 
 <hr>
 {{  site.data.default | inspect }}
