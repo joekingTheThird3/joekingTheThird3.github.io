@@ -69,13 +69,7 @@ myarray.size (should say 3)= {{page.myarray.size}}
 
 page.path = {{ page.path }}
 <br>
-<!--
-{% assign mypath= page.path %}
 
-<br>
-mypath= {{mypath }} <Br>
-{% link mypath %}
--->
  
 link: 
 
