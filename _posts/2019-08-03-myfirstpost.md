@@ -47,6 +47,7 @@ site.collections A list of all the collections (including posts) = <br>
 {{site.collections}}
 
 <br>
+<!-- .last in liquid notation method  https://github.com/Shopify/liquid/wiki/Liquid-for-Designers -->
 myarray.last (should say item3)= {{page.myarray.last}}
 <br>
 {{  site.data.default | inspect }}
