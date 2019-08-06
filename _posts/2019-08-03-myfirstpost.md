@@ -33,6 +33,12 @@ but only hint that there was a problem was in the settings tab of the repository
 
 
 
+baseurl= {{ baseurl }}
+<br>
+url= {{url}}
+<br>
+relative url={{ "" | absolute_url }}
+
 
 <br>
 {{ site.time | date_to_string }}
