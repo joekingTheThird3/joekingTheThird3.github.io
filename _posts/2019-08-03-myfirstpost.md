@@ -60,7 +60,8 @@ myarray.size (should say 3)= {{page.myarray.size}}
 {% for item in page.myhash %}
   {{ item[0] }}: {{ item[1] }}
 {% endfor %}
-
+<hr>
+{{page.myhash|inspect}}
 <hr>
 {{  site.data.default | inspect }}
 <br>
