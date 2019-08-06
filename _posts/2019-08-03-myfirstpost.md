@@ -74,9 +74,10 @@ page.path = {{ page.path }}
 
 <br>
 mypath= {{mypath }} <Br>
- -->
+{% link mypath %}
+-->
  
-link: {% link mypath %}
+link: 
 
 <hr>
 {{ site.time | date_to_string }}
