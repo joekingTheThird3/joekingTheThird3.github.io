@@ -79,7 +79,9 @@ link: {{mypath}}
 
 <br>
 10:
+<hr>
 
+{% include archive.html %}
 
 <hr>
 {{ site.time | date_to_string }}
