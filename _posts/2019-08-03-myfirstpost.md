@@ -77,6 +77,9 @@ link: {{mypath}}
 <hr>
 
 {#failed?[link to a post]({% link mypath %})#}
+<br>
+10:
+
 
 <hr>
 {{ site.time | date_to_string }}
