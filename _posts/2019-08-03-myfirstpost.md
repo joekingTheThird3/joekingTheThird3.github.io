@@ -50,6 +50,7 @@ site.collections A list of all the collections (including posts) = <br>
 <!-- .last in liquid notation method  https://github.com/Shopify/liquid/wiki/Liquid-for-Designers -->
 myarray.last (should say item3)= {{page.myarray.last}}
 <br>
+myarray.size (should say 3)= {{page.myarray.size}}
 {{  site.data.default | inspect }}
 <br>
 {{ site.time | date_to_string }}
