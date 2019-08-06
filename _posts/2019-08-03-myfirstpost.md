@@ -3,6 +3,7 @@ layout: post
 title: "joekingthethird3 Launches Site"
 date: 2019-08-03
 salute: hello
+myarray: ['item1','item2','item3']
 ---
 
 data = site.data = {{  site.data }}
@@ -45,6 +46,8 @@ site.collections A list of all the collections (including posts) = <br>
 
 {{site.collections}}
 
+<br>
+myarray.last (should say item3)= {{page.myarray.last}}
 <br>
 {{  site.data.default | inspect }}
 <br>
