@@ -40,7 +40,7 @@ but only hint that there was a problem was in the settings tab of the repository
 5. What version of Jekyll am I using on github? Look at <https://pages.github.com/versions/> - v3.8.5 as of 05/08/2019
 6. Tag system from <http://longqian.me/2017/02/09/github-jekyll-tag/>
 7. unknown error with tag link - {% link ... - not building site
-
+<hr>
 
 baseurl= {{ baseurl }}
 <br>
