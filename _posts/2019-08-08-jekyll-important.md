@@ -7,13 +7,24 @@ Important stuff about the site generator Jekyll:
 <br>
 
 * * *
-list of static files
+
+0.
+1. Jekyll uses the Liquid templating language
+output content using two curly braces e.g. {%raw%}{{ variable }} {%endraw%}<br>
+and perform logic statements by surrounding them in a curly brace percentage sign <br>
+e.g. {%raw%}{% if statement %}{%endraw%}. 
+
+2.
+
+
+* * *
+list of static files - not processed by Jekyll
 
 {% raw %}
-{% assign image_files = site.static_files %}
-{% for myimage in image_files %}
-  {{ myimage.path }}
-{% endfor %}
+{% assign image_files = site.static_files %}<br>
+{% for myimage in image_files %}<Br>
+  {{ myimage.path }}<br>
+{% endfor %}<br>
 {% endraw %}
 
 
