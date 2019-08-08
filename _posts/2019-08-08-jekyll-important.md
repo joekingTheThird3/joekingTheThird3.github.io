@@ -17,8 +17,9 @@ e.g. {%raw%}{% if statement %}{%endraw%}.
 2. <https://jekyllrb.com/docs/variables/>
 <br>
 All the variables set via the command line and your _config.yml are available through the site variable
+{% raw %}{{site}}{% endraw %}
 <br>
-3.{{site|inspect}}
+3.
 
 
 * * *
