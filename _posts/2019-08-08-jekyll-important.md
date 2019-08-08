@@ -37,4 +37,8 @@ list of static files - not processed by Jekyll
 {% for myimage in image_files %}
   {{ myimage.path }}
 {% endfor %}
+***
+{% include archive.html %}
+<hr>
+{{ site.time | date_to_string }} 
 
