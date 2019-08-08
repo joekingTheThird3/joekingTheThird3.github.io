@@ -14,7 +14,10 @@ output content using two curly braces e.g. {%raw%}{{ variable }} {%endraw%}<br>
 and perform logic statements by surrounding them in a curly brace percentage sign <br>
 e.g. {%raw%}{% if statement %}{%endraw%}. 
 
-2.
+2. <https://jekyllrb.com/docs/variables/>
+<br>
+All the variables set via the command line and your _config.yml are available through the site variable
+3.{{site|inspect}}
 
 
 * * *
