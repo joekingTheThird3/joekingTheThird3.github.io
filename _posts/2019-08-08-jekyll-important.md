@@ -1,6 +1,7 @@
 ---
 title: Important stuff about Jekyll
 tags: code jekyll important
+layout: post
 ---
 Important stuff about the site generator Jekyll:
 
