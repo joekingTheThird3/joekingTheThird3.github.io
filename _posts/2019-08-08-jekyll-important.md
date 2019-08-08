@@ -1,4 +1,6 @@
 ---
+title: Important stuff about Jekyll I learned
+tags: code jekyll important
 ---
 Important stuff about the site generator Jekyll:
 
