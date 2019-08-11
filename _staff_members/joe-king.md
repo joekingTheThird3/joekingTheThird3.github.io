@@ -1,5 +1,5 @@
 ---
-name:joe king
+name: joe king
 position: lead pencil maker
 ---
 
