@@ -3,4 +3,8 @@ name: JoekingTheThird3, code explorer
 markdown: kramdown
 #permalink: /blog/:year/:month/:day/:title
 permalink: /:year/:month/:day/:title
+
+
+collections:
+  - staff_members
 ---
