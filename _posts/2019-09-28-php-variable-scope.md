@@ -14,6 +14,10 @@ myhash: {
 ---
 {% raw %}
 <img src="https://github.com/joekingTheThird3/joekingTheThird3.github.io/blob/master/assets/28-09-2019-0375.png?raw=true">
+<br>
+output of previous code
+<br>
+<img src="https://raw.githubusercontent.com/joekingTheThird3/joekingTheThird3.github.io/master/assets/28-09-2019-0374.png?raw=true">
 {% endraw %}
 
 
