@@ -21,7 +21,12 @@ output of previous code
 {% endraw %}
 
 
-
+So, what happens?
+$foo is global. In the function the variable $foo is accessed by the 'global' keyword.
+In the first function call 'baz();', the global variable $foo has the value 'bar', and so it is output via echo.
+The function then assigns a new value of 'baz' to $foo.
+The second call of 'baz();' echos the value of 'bar' and assigns 'baz' to $foo again.
+The third call  of 'baz();' echos the value of 'bar' and assigns 'baz' to $foo again.
 
 
 
