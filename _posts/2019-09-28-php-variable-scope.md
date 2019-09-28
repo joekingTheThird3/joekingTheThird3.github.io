@@ -37,6 +37,8 @@ The third call  of 'baz();' echos the value of 'bar' and assigns 'baz' to $foo a
 
 <img src="https://github.com/joekingTheThird3/joekingTheThird3.github.io/blob/master/assets/28-09-2019-0376.png?raw=true">
 {% endraw %}
+
+https://stackoverflow.com/questions/16959576/reference-what-is-variable-scope-which-variables-are-accessible-from-where-and
 <br>
 The explanation on stackoverflow seems to be incorrect?
 
