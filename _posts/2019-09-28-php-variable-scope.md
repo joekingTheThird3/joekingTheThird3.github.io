@@ -23,11 +23,15 @@ output of previous code
 
 So, what happens?
 $foo is global. In the function the variable $foo is accessed by the 'global' keyword.
+<br>
 In the first function call 'baz();', the global variable $foo has the value 'bar', and so it is output via echo.
+<br>
 The function then assigns a new value of 'baz' to $foo.
+<br>
 The second call of 'baz();' echos the value of 'bar' and assigns 'baz' to $foo again.
+<br>
 The third call  of 'baz();' echos the value of 'bar' and assigns 'baz' to $foo again.
-
+<br>
 
 
 
