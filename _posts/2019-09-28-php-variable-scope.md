@@ -39,7 +39,7 @@ The third call  of 'baz();' echos the value of $foo ('baz') and assigns 'baz' to
 {% endraw %}
 
 {% raw}
-https://stackoverflow.com/questions/16959576/reference-what-is-variable-scope-which-variables-are-accessible-from-where-and 
+<a href="https://stackoverflow.com/questions/16959576/reference-what-is-variable-scope-which-variables-are-accessible-from-where-and">https://stackoverflow.com/questions/16959576/reference-what-is-variable-scope-which-variables-are-accessible-from-where-and</a> 
 {% endraw %}
 <br>
 The explanation on stackoverflow seems to be incorrect?
