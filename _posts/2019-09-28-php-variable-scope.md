@@ -28,9 +28,9 @@ In the first function call 'baz();', the global variable $foo has the value 'bar
 <br>
 The function then assigns a new value of 'baz' to $foo.
 <br>
-The second call of 'baz();' echos the value of 'bar' and assigns 'baz' to $foo again.
+The second call of 'baz();' echos the value of $foo ('baz') and assigns 'baz' to $foo again.
 <br>
-The third call  of 'baz();' echos the value of 'bar' and assigns 'baz' to $foo again.
+The third call  of 'baz();' echos the value of $foo ('baz') and assigns 'baz' to $foo again.
 <br>
 
 {% raw %}
