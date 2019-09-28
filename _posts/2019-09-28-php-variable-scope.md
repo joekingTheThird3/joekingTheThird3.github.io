@@ -15,3 +15,11 @@ myhash: {
 {% raw %}
 https://github.com/joekingTheThird3/joekingTheThird3.github.io/assets/28-09-2019-0375.png
 {% endraw %}
+
+
+
+
+
+
+
+{{ site.time | date_to_string }}
