@@ -38,7 +38,9 @@ The third call  of 'baz();' echos the value of $foo ('baz') and assigns 'baz' to
 <img src="https://github.com/joekingTheThird3/joekingTheThird3.github.io/blob/master/assets/28-09-2019-0376.png?raw=true">
 {% endraw %}
 
-{{ https://stackoverflow.com/questions/16959576/reference-what-is-variable-scope-which-variables-are-accessible-from-where-and }}
+{% raw}
+https://stackoverflow.com/questions/16959576/reference-what-is-variable-scope-which-variables-are-accessible-from-where-and 
+{% endraw %}
 <br>
 The explanation on stackoverflow seems to be incorrect?
 
