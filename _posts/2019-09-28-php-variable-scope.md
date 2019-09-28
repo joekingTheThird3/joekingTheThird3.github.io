@@ -33,6 +33,11 @@ The second call of 'baz();' echos the value of 'bar' and assigns 'baz' to $foo a
 The third call  of 'baz();' echos the value of 'bar' and assigns 'baz' to $foo again.
 <br>
 
+{% raw %}
+
+<img src="https://github.com/joekingTheThird3/joekingTheThird3.github.io/blob/master/assets/28-09-2019-0376.png?raw=true">
+{% endraw %}
+The explanation on stackoverflow seems to be incorrect?
 
 
 {{ site.time | date_to_string }}
